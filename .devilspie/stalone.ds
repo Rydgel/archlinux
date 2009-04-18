@@ -1,0 +1,6 @@
+(if
+	(matches (application_name) "stalonetray")
+	(begin
+	(wintype "dock")
+	)
+)

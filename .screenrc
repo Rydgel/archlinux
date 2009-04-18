@@ -1,0 +1,2 @@
+sorendition "=b ky"
+hardstatus alwayslastline "  %{= kK}%-w%{+b W}%n %t%{-}%+w%=%{+b W}%h  %{= dd}"

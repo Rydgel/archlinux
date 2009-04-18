@@ -1,0 +1,377 @@
+Xcursor.theme: Vanilla-DMZ
+Xcursor.size:   22
+
+Xft.antialias: 1
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.rgba: rgb
+
+URxvt*font: xft:cure:style=Regular:pixelsize=10
+URxvt*boldFont: xft:cure:style=Bold:pixelsize=10
+URxvt*italicFont: xft:cure:style=Italic:pixelsize=10
+URxvt*boldItalicFont: xft:cure:style=boldItalic:pixelsize=10
+
+ 
+!URxvt*termName: rxvt-256color
+URxvt*saveLines: 32767
+URxvt*scrollBar:   false
+URxvt*scrollBar_right:   false
+URxvt*loginShell:   true
+!URxvt*tintColor: #121212
+!URxvt*shading: 0
+URxvt*termName:     rxvt-unicode
+!URxvt*inheritPixmap:   true
+URxvt*cutchars:     "()*,<>[]{}|'
+URxvt*secondaryScroll:   true
+urxvt*perl-lib:     /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:   default,matcher
+URxvt*urlLauncher:   /usr/bin/firefox
+URxvt*matcher.button:   1
+URxvt*matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+URxvt*visualBell:   false
+URxvt*keysym.C-u: perl:matcher
+ 
+xterm*utf8: 2
+!*background: #3a3a3a
+!*foreground: #dcdccc
+
+!*background: #1e1e1e
+!*foreground: #dcdccc
+!black
+!*color0:  #222222
+!*color8:  #554444
+
+!red
+!*color1:  #884422
+!*color9:  #cc5533
+
+!green
+!*color2:  #778800
+!*color10: #88aa22
+
+!yellow
+!*color3:  #887733
+!*color11: #aa9955
+
+!blue
+!*color4:  #8866cc
+!*color12: #9977dd
+
+!magneta
+!*color5:  #885500
+!*color13: #996600
+
+!cyan
+!*color6:  #5555aa
+!*color14: #7777aa
+
+!white
+!*color7:  #bbaa99
+!*color15: #ddccaa
+ 
+! ---| Tango |--- {{{
+ 
+! Black
+!*color0: #1e1e1e
+!*color8: #555753
+! Red
+!*color1: #CC0000
+!*color9: #EF2929
+! Green
+!*color2: #4E9A06
+!*color10: #8AE234
+! Yellow
+!*color3: #C4A000
+!*color11: #FCE94F
+! Blue
+!*color4: #3465A4
+!*color12: #729FCF
+! Purple
+!*color5: #75507B
+!*color13: #AD7FA8
+! Cyan
+!*color6: rgb:06/98/9A
+!*color14: #34E2E2
+! White
+!*color7: #9f9f9f
+!*color15: #e0e0e0
+ 
+!}}}
+ 
+! ---| Zenburn |--- {{{
+ 
+! Zenburn
+! black + red
+!urxvt*color0: #3f3f3f
+!*color0: #1E2320
+!*color1: #705050
+! green + yellow
+!*color2: #60b48a
+!*color3: #dfaf8f
+! blue + purple
+!*color4: #506070
+!urxvt*color4: #516c87
+!*color5: #dc8cc3
+! cyan + white
+!*color6: #8cd0d3
+!*color7: #dcdccc
+! bright-black + bright-red
+!*color8: #709080
+!*color9: #dca3a3
+! bright-green + bright-yellow
+!*color10: #c3bf9f
+!*color11: #f0dfaf
+! bright-blue + bright-purple
+!*color12: #94bff3
+!*color13: #ec93d3
+! bright-cyan + bright-white
+!*color14: #93e0e3
+!*color15: #ffffff
+ 
+!}}}
+ 
+! ---| Mr.Elendig |--- {{{
+!URxvt*cursorColor: #FFAF00
+ 
+! black
+!*color0: #000000
+!*color8: #9999AA
+ 
+! red
+!*color1: #DE1923
+!*color9: #FF6050
+ 
+! green
+!*color2: #559933
+!*color10: #66D077
+ 
+! yellow
+!*color3: #FF9922
+!*color11: #FFFFAF
+ 
+! blue
+!*color4: #3579A8
+!*color12: #4EB4FA
+ 
+! magenta
+!*color5: #BB88DD
+!*color13: #D7AFD7
+ 
+! cyan
+!*color6: #00BBDD
+!*color14: #0DEBFF
+ 
+! white
+!*color7: #C7C7C7
+!*color15: #D9D9D9
+ 
+!}}}
+
+! ---| fwojciec |--- {{{
+!*color0: rgb:1e/1e/1e
+!*color1: rgb:98/56/5e
+!*color2: rgb:66/82/5d
+!*color3: rgb:96/91/76
+!*color4: rgb:4d/65/85
+!*color5: rgb:96/73/95
+!*color6: rgb:5f/7f/7b
+!*color7: rgb:e0/e0/e0
+!*color8: rgb:73/73/73
+!*color9: rgb:cf/a3/a9
+!*color10: rgb:ca/f7/bb
+!*color11: rgb:ff/f8/bc
+!*color12: rgb:83/a3/be
+!*color13: rgb:bb/a9/cf
+!*color14: rgb:96/cc/cc
+!*color15: rgb:8f/8f/8f
+!}}}
+ 
+! ---| xcalc |--- {{{
+xcalc*geometry: 210x275
+xcalc.ti.bevel.background: #111111
+xcalc.ti.bevel.screen.background: #000000
+xcalc.ti.bevel.screen.DEG.background: #000000
+xcalc.ti.bevel.screen.DEG.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.GRAD.background: #000000
+xcalc.ti.bevel.screen.GRAD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.RAD.background: #000000
+xcalc.ti.bevel.screen.RAD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.INV.background: #000000
+xcalc.ti.bevel.screen.INV.foreground: Red
+xcalc.ti.bevel.screen.LCD.background: #000000
+xcalc.ti.bevel.screen.LCD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.LCD.shadowWidth: 0
+xcalc.ti.bevel.screen.M.background: #000000
+xcalc.ti.bevel.screen.M.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.P.background: #000000
+xcalc.ti.bevel.screen.P.foreground: Yellow
+xcalc.ti.Command.foreground: White
+xcalc.ti.Command.background: #777777
+xcalc.ti.button3.label: SQRT
+XCalc*ti.button3.font: -*-verdana-medium-r-normal--11-*-*-*-*-*-*-*
+xcalc.ti.button5.background: Orange3
+xcalc.ti.button19.background: #611161
+xcalc.ti.button18.background: #611161
+xcalc.ti.button20.background: #611111
+xcalc.ti.button25.background: #722222
+xcalc.ti.button30.background: #833333
+xcalc.ti.button35.background: #944444
+xcalc.ti.button40.background: #a55555
+xcalc.ti.button22.background: #222262
+xcalc.ti.button23.background: #222262
+xcalc.ti.button24.background: #222272
+xcalc.ti.button27.background: #333373
+xcalc.ti.button28.background: #333373
+xcalc.ti.button29.background: #333373
+xcalc.ti.button32.background: #444484
+xcalc.ti.button33.background: #444484
+xcalc.ti.button34.background: #444484
+xcalc.ti.button37.background: #555595
+xcalc.ti.button38.background: #555595
+xcalc.ti.button39.background: #555595
+XCalc*Cursor: hand2
+XCalc*ShapeStyle: rectangle
+XCalc*Font: -*-verdana-medium-r-normal--11-*-*-*-*-*-*-*
+XCalc*bevel.screen.LCD.Font: -*-verdana-bold-r-normal--12-*-*-*-*-*-*-*
+!}}}
+ 
+! ---| xpdf |--- {{{
+xpdf*enableFreetype: yes
+xpdf*antialias: yes
+xpdf*foreground: black
+xpdf*background: white
+xpdf*urlCommand: /usr/bin/firefox %s
+xpdf*viKeys: on
+!}}}
+!
+
+!urxvt.cursorColor:       #dd9900
+!urxvt.cursorColor2:      #000000
+*.background:            #121212
+!*.foreground:            #ddccbb
+!urxvt.colorBD:           #ffffff
+!urxvt.colorIT:           #bbbbbb
+!urxvt.colorUL:           #999999
+!urxvt.underlineColor:    #999999
+
+
+
+! good
+!*color0: rgb:33/33/33
+!*color8: rgb:33/33/33
+!*color1: rgb:ff/a0/a0
+!*color9: rgb:ff/a0/a0
+!*color2: rgb:98/fb/98
+!*color10: rgb:9a/cd/32
+!*color3: rgb:f0/e6/8c
+!*color11: rgb:f0/e6/8c
+!*color4: rgb:87/ce/eb
+!*color12: rgb:87/ce/eb
+!*color5: rgb:ff/a0/a0
+!*color13: rgb:ff/a0/a0
+!*color6: rgb:87/ce/eb
+!*color14: rgb:87/ce/eb
+!*color7: rgb:ff/ff/ff
+!*color15: rgb:ff/ff/ff
+!
+
+!*background:       #121212
+!*foreground:       #cacaca
+!black
+!*color0:           #080808
+!*color8:           #505050
+!red
+!*color1:           #b04020
+!*color9:           #dd4010
+!green
+!*color2:           #afd700
+!*color10:          #daff30
+!yellow
+!*color3:           #f7cf0a
+!*color11:          #fce70d
+!blue
+!*color4:           #3060aa
+!*color12:          #6099dd
+!magenta
+!*color5:           #d6156c
+!*color13:          #fe4365
+!cyan
+!*color6:           #a0c2de
+!*color14:          #c9dee8
+!white
+!*color7:           #808080
+!*color15:          #b0b0b0
+!
+
+
+! My Xdefaults
+!*background:       #121212
+!*foreground:       #cacaca
+!black
+!*color0:           #080808
+!*color8:           #888888
+!red
+!*color1:           #cf6a4c
+!*color9:           #dd4010
+!green
+!*color2:           #799d6a
+!*color10:          #99ad6a
+!yellow
+!*color3:           #fad07a
+!*color11:          #ffb964
+!blue
+!*color4:           #8197bf
+!*color12:          #8fbfdc
+!magenta
+!*color5:           #d6156c
+!*color13:          #F0A0C0
+!cyan
+!*color6:           #a0a8b0
+!*color14:          #c6b6ee
+!white
+!*color7:           #808080
+!*color15:          #b0b0b0
+
+
+
+!*color0:  rgb:00/00/00
+!*color1:  rgb:cd/5c/5c
+!*color2:  rgb:8e/ae/71
+!*color3:  rgb:d2/b4/8c
+!*color4:  rgb:5f/7b/8a
+!*color5:  rgb:cd/cd/b4
+!*color6:  rgb:68/68/68
+!*color7:  rgb:ff/ff/ff
+!*color8:  rgb:00/00/00
+!*color9:  rgb:ee/63/63
+!*color10: rgb:95/c7/49
+!*color11: rgb:cd/cd/c1
+!*color12: rgb:6b/7b/8a
+!*color13: rgb:cd/cd/b4
+!*color14: rgb:77/87/98
+!*color15: rgb:ca/ca/ca
+
+*foreground: #ffffff
+*color0: #000000
+*color1: #9e1828
+*color2: #aece92
+*color3: #d7af00
+*color4: #414171
+*color5: #963c59
+*color6: #418179
+*color7: #bebebe
+*color8: #666666
+*color9: #cf6171
+*color10: #c5f779
+*color11: #fff796
+*color12: #4186be
+*color13: #cf9ebe
+*color14: #71bebe
+*color15: #ffffff
+
+URxvt*colorUL: #c5f779
+URxvt*underlineColor: #c5f779
+
+URxvt.colorBD: #ffffff
+URxvt.colorIT: #bbbbbb

@@ -1,0 +1,7 @@
+(if
+	(matches (application_name) "trayer")
+	(begin
+	(wintype "desktop")
+	(below)
+	)
+)

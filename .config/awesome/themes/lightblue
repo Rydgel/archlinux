@@ -1,0 +1,40 @@
+font                    = Monaco 7
+
+bg_normal               = #4E6274
+bg_focus                = #839AB1
+bg_urgent               = #288EF6
+ 
+fg_normal               = #A8A8DD
+fg_focus                = #CFFFFF
+fg_urgent               = #FFAAAA
+
+border_width            = 1
+border_normal           = #262626
+border_focus            = #839AB1
+border_marked           = #0000F0
+
+taglist_squares_sel     = /usr/share/awesome/themes/default/taglist/squarefw.png
+taglist_squares_unsel   = /usr/share/awesome/themes/default/taglist/squarew.png
+tasklist_floating_icon  = /usr/share/awesome/themes/default/tasklist/floatingw.png
+
+menu_submenu_icon       = /home/gig/.config/awesome/icons/submenu.png
+menu_height             = 15
+menu_width              = 100
+
+taglist_squares         = true
+titlebar_close_button   = false
+
+wallpaper_cmd           = awsetbg /home/gig/walls/arch.jpg
+
+layout_fairh            = /home/gig/.config/awesome/icons/layouts/fairhw.png
+layout_fairv            = /home/gig/.config/awesome/icons/layouts/fairvw.png
+layout_floating         = /home/gig/.config/awesome/icons/layouts/floatingw.png
+layout_magnifier        = /home/gig/.config/awesome/icons/layouts/magnifierw.png
+layout_max              = /home/gig/.config/awesome/icons/layouts/maxw.png
+layout_spiral           = /home/gig/.config/awesome/icons/layouts/spiralw.png
+layout_tilebottom       = /home/gig/.config/awesome/icons/layouts/tilebottomw.png
+layout_tileleft         = /home/gig/.config/awesome/icons/layouts/tileleftw.png
+layout_tile             = /home/gig/.config/awesome/icons/layouts/tilew.png
+layout_tiletop          = /home/gig/.config/awesome/icons/layouts/tiletopw.png
+
+awesome_icon            = /home/gig/.config/awesome/icons/awesome16.png

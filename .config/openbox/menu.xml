@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<item label="Thunar">
+			<action name="Execute">
+				<execute>
+					thunar
+				</execute>
+			</action>
+		</item>
+		<item label="Term">
+			<action name="Execute">
+				<execute>
+					urxvt
+				</execute>
+			</action>
+		</item>
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>
+					firefox
+				</execute>
+			</action>
+		</item>
+		<menu id="1" label="Development">
+			<item label="Eclipse">
+				<action name="Execute">
+					<execute>
+						eclipse
+					</execute>
+				</action>
+			</item>
+			<item label="GDB">
+				<action name="Execute">
+					<execute>
+						urxvt -e gdb
+					</execute>
+				</action>
+			</item>
+			<item label="Geany">
+				<action name="Execute">
+					<execute>
+						geany
+					</execute>
+				</action>
+			</item>
+			<item label="Glade Interface Designer">
+				<action name="Execute">
+					<execute>
+						glade-3
+					</execute>
+				</action>
+			</item>
+			<item label="gsharp">
+				<action name="Execute">
+					<execute>
+						gsharp
+					</execute>
+				</action>
+			</item>
+			<item label="IDLE">
+				<action name="Execute">
+					<execute>
+						idle
+					</execute>
+				</action>
+			</item>
+			<item label="Mono Documentation">
+				<action name="Execute">
+					<execute>
+						monodoc
+					</execute>
+				</action>
+			</item>
+			<item label="Mono IL Contrast">
+				<action name="Execute">
+					<execute>
+						ilcontrast
+					</execute>
+				</action>
+			</item>
+			<item label="NetBeans">
+				<action name="Execute">
+					<execute>
+						netbeans
+					</execute>
+				</action>
+			</item>
+			<item label="Python">
+				<action name="Execute">
+					<execute>
+						urxvt -e python
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="2" label="Editors">
+			<item label="AA Fire">
+				<action name="Execute">
+					<execute>
+						urxvt -e aafire -driver slang
+					</execute>
+				</action>
+			</item>
+			<item label="GVim">
+				<action name="Execute">
+					<execute>
+						gvim
+					</execute>
+				</action>
+			</item>
+			<item label="Text Editor">
+				<action name="Execute">
+					<execute>
+						gedit
+					</execute>
+				</action>
+			</item>
+			<item label="Vim">
+				<action name="Execute">
+					<execute>
+						urxvt -e vim
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="18" label="Games">
+			<menu id="9" label="Adventure">
+				<item label="NetHack">
+					<action name="Execute">
+						<execute>
+							xterm -e nethack
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="17" label="Amusement">
+				<item label="Xeyes">
+					<action name="Execute">
+						<execute>
+							xeyes
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="10" label="Arcade">
+				<item label="Nibbles">
+					<action name="Execute">
+						<execute>
+							gnibbles
+						</execute>
+					</action>
+				</item>
+				<item label="PacMan">
+					<action name="Execute">
+						<execute>
+							pacman
+						</execute>
+					</action>
+				</item>
+				<item label="Robots">
+					<action name="Execute">
+						<execute>
+							gnobots2
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="11" label="Board">
+				<item label="Chess">
+					<action name="Execute">
+						<execute>
+							glchess
+						</execute>
+					</action>
+				</item>
+				<item label="Iagno">
+					<action name="Execute">
+						<execute>
+							iagno
+						</execute>
+					</action>
+				</item>
+				<item label="Mahjongg">
+					<action name="Execute">
+						<execute>
+							mahjongg
+						</execute>
+					</action>
+				</item>
+				<item label="Monopoly">
+					<action name="Execute">
+						<execute>
+							xterm -e monop
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="12" label="Card">
+				<item label="AisleRiot Solitaire">
+					<action name="Execute">
+						<execute>
+							sol
+						</execute>
+					</action>
+				</item>
+				<item label="Blackjack">
+					<action name="Execute">
+						<execute>
+							blackjack
+						</execute>
+					</action>
+				</item>
+				<item label="FreeCell Solitaire">
+					<action name="Execute">
+						<execute>
+							sol --freecell
+						</execute>
+					</action>
+				</item>
+				<item label="Gnome FreeCell">
+					<action name="Execute">
+						<execute>
+							sol --variation freecell
+						</execute>
+					</action>
+				</item>
+				<item label="Tali">
+					<action name="Execute">
+						<execute>
+							gtali
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="13" label="Puzzle">
+				<item label="Five or More">
+					<action name="Execute">
+						<execute>
+							glines
+						</execute>
+					</action>
+				</item>
+				<item label="Four-in-a-Row">
+					<action name="Execute">
+						<execute>
+							gnect
+						</execute>
+					</action>
+				</item>
+				<item label="Gnometris">
+					<action name="Execute">
+						<execute>
+							gnometris
+						</execute>
+					</action>
+				</item>
+				<item label="Klotski">
+					<action name="Execute">
+						<execute>
+							gnotski
+						</execute>
+					</action>
+				</item>
+				<item label="Mines">
+					<action name="Execute">
+						<execute>
+							gnomine
+						</execute>
+					</action>
+				</item>
+				<item label="Same GNOME">
+					<action name="Execute">
+						<execute>
+							same-gnome
+						</execute>
+					</action>
+				</item>
+				<item label="Sudoku">
+					<action name="Execute">
+						<execute>
+							gnome-sudoku
+						</execute>
+					</action>
+				</item>
+				<item label="Tetravex">
+					<action name="Execute">
+						<execute>
+							gnotravex
+						</execute>
+					</action>
+				</item>
+			</menu>
+		</menu>
+		<menu id="6" label="Graphics">
+			<item label="F-Spot Photo Manager">
+				<action name="Execute">
+					<execute>
+						f-spot
+					</execute>
+				</action>
+			</item>
+			<item label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<execute>
+						gimp-2.6
+					</execute>
+				</action>
+			</item>
+			<item label="GQview">
+				<action name="Execute">
+					<execute>
+						gqview
+					</execute>
+				</action>
+			</item>
+			<item label="Image Viewer">
+				<action name="Execute">
+					<execute>
+						eog
+					</execute>
+				</action>
+			</item>
+			<item label="Inkscape Vector Graphics Editor">
+				<action name="Execute">
+					<execute>
+						inkscape
+					</execute>
+				</action>
+			</item>
+			<item label="Mirage">
+				<action name="Execute">
+					<execute>
+						mirage
+					</execute>
+				</action>
+			</item>
+			<item label="Ristretto">
+				<action name="Execute">
+					<execute>
+						ristretto
+					</execute>
+				</action>
+			</item>
+			<item label="scanimage">
+				<action name="Execute">
+					<execute>
+						urxvt -e scanimage
+					</execute>
+				</action>
+			</item>
+			<item label="The GIMP">
+				<action name="Execute">
+					<execute>
+						gimp
+					</execute>
+				</action>
+			</item>
+			<item label="XGlyph">
+				<action name="Execute">
+					<execute>
+						xglyph
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="7" label="Multimedia">
+			<item label="ALSA mixer">
+				<action name="Execute">
+					<execute>
+						urxvt -e alsamixer
+					</execute>
+				</action>
+			</item>
+			<item label="Audio CD Extractor">
+				<action name="Execute">
+					<execute>
+						sound-juicer
+					</execute>
+				</action>
+			</item>
+			<item label="AUmix">
+				<action name="Execute">
+					<execute>
+						urxvt -e aumix
+					</execute>
+				</action>
+			</item>
+			<item label="Avidemux">
+				<action name="Execute">
+					<execute>
+						avidemux2_gtk
+					</execute>
+				</action>
+			</item>
+			<item label="Banshee Media Player">
+				<action name="Execute">
+					<execute>
+						banshee-1 --redirect-log
+					</execute>
+				</action>
+			</item>
+			<item label="Brasero Disc Burner">
+				<action name="Execute">
+					<execute>
+						brasero
+					</execute>
+				</action>
+			</item>
+			<item label="cam">
+				<action name="Execute">
+					<execute>
+						urxvt -font vga -geometry 80x25 -bg black -fg gray -e /usr/bin/cam
+					</execute>
+				</action>
+			</item>
+			<item label="Cheese Webcam Booth">
+				<action name="Execute">
+					<execute>
+						cheese
+					</execute>
+				</action>
+			</item>
+			<item label="Gmplayer">
+				<action name="Execute">
+					<execute>
+						gmplayer
+					</execute>
+				</action>
+			</item>
+			<item label="Gnac">
+				<action name="Execute">
+					<execute>
+						gnac
+					</execute>
+				</action>
+			</item>
+			<item label="gtk-recordMyDesktop">
+				<action name="Execute">
+					<execute>
+						gtk-recordMyDesktop
+					</execute>
+				</action>
+			</item>
+			<item label="Gtv">
+				<action name="Execute">
+					<execute>
+						gtv
+					</execute>
+				</action>
+			</item>
+			<item label="Movie Player">
+				<action name="Execute">
+					<execute>
+						totem
+					</execute>
+				</action>
+			</item>
+			<item label="Sonata">
+				<action name="Execute">
+					<execute>
+						sonata
+					</execute>
+				</action>
+			</item>
+			<item label="Sound Recorder">
+				<action name="Execute">
+					<execute>
+						gnome-sound-recorder
+					</execute>
+				</action>
+			</item>
+			<item label="VLC media player">
+				<action name="Execute">
+					<execute>
+						vlc
+					</execute>
+				</action>
+			</item>
+			<item label="Volume Control">
+				<action name="Execute">
+					<execute>
+						gnome-volume-control
+					</execute>
+				</action>
+			</item>
+			<item label="Xaumix">
+				<action name="Execute">
+					<execute>
+						xaumix
+					</execute>
+				</action>
+			</item>
+			<item label="XVidCap Screen Capture">
+				<action name="Execute">
+					<execute>
+						xvidcap
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="aMSN">
+				<action name="Execute">
+					<execute>
+						amsn
+					</execute>
+				</action>
+			</item>
+			<item label="Avahi SSH Server Browser">
+				<action name="Execute">
+					<execute>
+						bssh
+					</execute>
+				</action>
+			</item>
+			<item label="Avahi VNC Server Browser">
+				<action name="Execute">
+					<execute>
+						bvnc
+					</execute>
+				</action>
+			</item>
+			<item label="Emesene">
+				<action name="Execute">
+					<execute>
+						emesene
+					</execute>
+				</action>
+			</item>
+			<item label="Epiphany Web Bookmarks">
+				<action name="Execute">
+					<execute>
+						epiphany --bookmarks-editor
+					</execute>
+				</action>
+			</item>
+			<item label="Epiphany Web Browser">
+				<action name="Execute">
+					<execute>
+						epiphany
+					</execute>
+				</action>
+			</item>
+			<item label="FileZilla FTP client">
+				<action name="Execute">
+					<execute>
+						filezilla
+					</execute>
+				</action>
+			</item>
+			<item label="FireFox">
+				<action name="Execute">
+					<execute>
+						firefox
+					</execute>
+				</action>
+			</item>
+			<item label="gFTP">
+				<action name="Execute">
+					<execute>
+						gftp
+					</execute>
+				</action>
+			</item>
+			<item label="Irssi">
+				<action name="Execute">
+					<execute>
+						xterm -e irssi
+					</execute>
+				</action>
+			</item>
+			<item label="LFTP">
+				<action name="Execute">
+					<execute>
+						xterm -e lftp
+					</execute>
+				</action>
+			</item>
+			<item label="Lynx">
+				<action name="Execute">
+					<execute>
+						xterm -e lynx
+					</execute>
+				</action>
+			</item>
+			<item label="Mail">
+				<action name="Execute">
+					<execute>
+						xterm -e mail
+					</execute>
+				</action>
+			</item>
+			<item label="Midori">
+				<action name="Execute">
+					<execute>
+						midori
+					</execute>
+				</action>
+			</item>
+			<item label="NcFTP">
+				<action name="Execute">
+					<execute>
+						xterm -e ncftp
+					</execute>
+				</action>
+			</item>
+			<item label="Opera">
+				<action name="Execute">
+					<execute>
+						opera
+					</execute>
+				</action>
+			</item>
+			<item label="Pidgin Internet Messenger">
+				<action name="Execute">
+					<execute>
+						pidgin
+					</execute>
+				</action>
+			</item>
+			<item label="Remote Desktop Viewer">
+				<action name="Execute">
+					<execute>
+						vinagre
+					</execute>
+				</action>
+			</item>
+			<item label="Skype">
+				<action name="Execute">
+					<execute>
+						skype
+					</execute>
+				</action>
+			</item>
+			<item label="TkVNC">
+				<action name="Execute">
+					<execute>
+						xterm -e tkvnc
+					</execute>
+				</action>
+			</item>
+			<item label="Twitux">
+				<action name="Execute">
+					<execute>
+						twitux
+					</execute>
+				</action>
+			</item>
+			<item label="W3m">
+				<action name="Execute">
+					<execute>
+						xterm -e w3m
+					</execute>
+				</action>
+			</item>
+			<item label="Wicd">
+				<action name="Execute">
+					<execute>
+						wicd-client
+					</execute>
+				</action>
+			</item>
+			<item label="Xbiff">
+				<action name="Execute">
+					<execute>
+						xbiff
+					</execute>
+				</action>
+			</item>
+			<item label="Xmh">
+				<action name="Execute">
+					<execute>
+						xmh
+					</execute>
+				</action>
+			</item>
+			<item label="Zenmap">
+				<action name="Execute">
+					<execute>
+						zenmap
+					</execute>
+				</action>
+			</item>
+			<item label="Zenmap (as root)">
+				<action name="Execute">
+					<execute>
+						/usr/share/zenmap/su-to-zenmap.sh
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="3" label="Office">
+			<item label="Dictionary">
+				<action name="Execute">
+					<execute>
+						gnome-dictionary
+					</execute>
+				</action>
+			</item>
+			<item label="Evince">
+				<action name="Execute">
+					<execute>
+						evince
+					</execute>
+				</action>
+			</item>
+			<item label="Evolution Mail and Calendar">
+				<action name="Execute">
+					<execute>
+						evolution
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 Base">
+				<action name="Execute">
+					<execute>
+						soffice -base
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 Calc">
+				<action name="Execute">
+					<execute>
+						soffice -calc
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 Draw">
+				<action name="Execute">
+					<execute>
+						soffice -draw
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 From Template">
+				<action name="Execute">
+					<execute>
+						soffice slot:5500
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 Impress">
+				<action name="Execute">
+					<execute>
+						soffice -impress
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 Math">
+				<action name="Execute">
+					<execute>
+						soffice -math
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 Printer Administration">
+				<action name="Execute">
+					<execute>
+						spadmin
+					</execute>
+				</action>
+			</item>
+			<item label="OpenOffice.org 3.0 Writer">
+				<action name="Execute">
+					<execute>
+						soffice -writer
+					</execute>
+				</action>
+			</item>
+			<item label="Wammu">
+				<action name="Execute">
+					<execute>
+						wammu
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<item label="Obmenu">
+				<action name="Execute">
+					<execute>
+						obmenu
+					</execute>
+				</action>
+			</item>
+			<item label="Obconf">
+				<action name="Execute">
+					<execute>
+						obconf
+					</execute>
+				</action>
+			</item>
+			<item label="Nitrogen">
+				<action name="Execute">
+					<execute>
+						nitrogen images/
+					</execute>
+				</action>
+			</item>
+			<item label="Appearance">
+				<action name="Execute">
+					<execute>
+						lxappearance
+					</execute>
+				</action>
+			</item>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<menu id="client-list-menu"/>
+			<separator/>
+			<item label="Reboot">
+				<action name="Execute">
+					<execute>
+						sudo shutdown -r now
+					</execute>
+				</action>
+			</item>
+			<item label="Shutdown">
+				<action name="Execute">
+					<execute>
+						sudo shutdown -h now
+					</execute>
+				</action>
+			</item>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>

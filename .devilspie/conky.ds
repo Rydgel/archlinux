@@ -1,0 +1,10 @@
+(if
+
+(matches (window_class) "Conky")
+(begin
+	(wintype "dock")
+	(below)
+	(spawn_async (str "transset-df -i " (window_xid) " 1.00"))
+)
+)
+

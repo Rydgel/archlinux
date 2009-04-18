@@ -1,0 +1,117 @@
+#!/bin/sh
+# Author: Brice Burgess - bhb@iceburg.net
+# multi_backup.sh -- backup to a local drive using rsync. 
+#         Uses hard-link rotation to keep multiple backups.
+
+# Directories to backup. Seperate with a space. Exclude trailing slash!
+SOURCES="/home/gig"
+
+# Directory to backup to. This is where your backup(s) will be stored. No spaces in names!
+# :: NOTICE :: -> Make sure this directory is empty or contains ONLY backups created by
+#	                        this script and NOTHING else. Exclude trailing slash!
+TARGET="/storage/backup"
+
+# Set the number of backups to keep (greater than 1). Ensure you have adaquate space.
+ROTATIONS=2
+
+# Your EXCLUDE_FILE tells rsync what NOT to backup. Leave it unchanged if you want
+# to backup all files in your SOURCES. If performing a FULL SYSTEM BACKUP, ie.
+# Your SOURCES is set to "/", you will need to make use of EXCLUDE_FILE.
+# The file should contain directories and filenames, one per line.
+# A good example would be:
+# /proc
+# /tmp
+# *.SOME_KIND_OF_FILE
+EXCLUDE_FILE=""
+
+# Comment out the following line to disable verbose output
+VERBOSE="-v"
+
+#######################################
+########DO_NOT_EDIT_BELOW_THIS_POINT#########
+#######################################
+
+# Set name (date) of backup. 
+BACKUP_DATE="`date +%F_%H-%M`"
+
+if [ ! -x $TARGET ]; then
+  echo "Backup target does not exist or you don't have permission!"
+  echo "Exiting..."
+  exit 2
+fi
+
+if [ ! $ROTATIONS -gt 1 ]; then
+  echo "You must set ROTATIONS to a number greater than 1!"
+  echo "Exiting..."
+  exit 2
+fi
+
+#### BEGIN ROTATION SECTION #### 
+
+BACKUP_NUMBER=1
+# incrementor used to determine current number of backups
+
+# list all backups in reverse (newest first) order, set name of oldest backup to $backup
+# if the retention number has been reached. 
+for backup in `ls -dXr $TARGET/*/`; do
+	if [ $BACKUP_NUMBER -eq 1 ]; then
+		NEWEST_BACKUP="$backup"
+	fi
+	
+	if [ $BACKUP_NUMBER -eq $ROTATIONS ]; then
+		OLDEST_BACKUP="$backup"
+		break
+	fi
+	
+	let "BACKUP_NUMBER=$BACKUP_NUMBER+1"
+done
+
+# Check if $OLDEST_BACKUP has been found. If so, rotate. If not, create new directory for this backup.
+if [ $OLDEST_BACKUP ]; then
+  # Set oldest backup to current one
+  mv $OLDEST_BACKUP $TARGET/$BACKUP_DATE
+else
+	mkdir $TARGET/$BACKUP_DATE
+fi
+
+# Update current backup using hard links from the most recent backup 
+if [ $NEWEST_BACKUP ]; then
+  cp -al $NEWEST_BACKUP. $TARGET/$BACKUP_DATE
+fi
+#### END ROTATION SECTION #### 
+ 
+
+# Check to see if rotation section created backup destination directory 
+if [ ! -d $TARGET/$BACKUP_DATE ]; then
+  echo "Backup destination not available. Make sure you have write permission in TARGET!"
+  echo "Exiting..."
+  exit 2
+fi 
+
+echo "Verifying Sources..." 
+for source in $SOURCES; do
+	echo "Checking $source..."
+	if [ ! -x $source ]; then
+     echo "Error with $source!"
+     echo "Directory either does not exist, or you do not have proper permissions."
+     exit 2
+   fi
+done
+
+if [ -f $EXCLUDE_FILE ]; then
+	EXCLUDE="--exclude-from=$EXCLUDE_FILE"
+fi
+
+echo "Sources verified. Running rsync..."
+for source in $SOURCES; do
+
+  # Create directories in $TARGET to mimick source directory hiearchy 
+  if [ ! -d $TARGET/$BACKUP_DATE/$source ]; then
+    mkdir -p $TARGET/$BACKUP_DATE/$source
+  fi
+  
+  rsync $VERBOSE --exclude=$TARGET/ $EXCLUDE -a --delete $source/ $TARGET/$BACKUP_DATE/$source/
+
+done
+
+exit 0

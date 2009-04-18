@@ -1,0 +1,65 @@
+---------------------------
+-- STxza's Awesome Theme --
+---------------------------
+
+# Font
+font                      = Terminus Bold 6
+
+# BG
+bg_normal                 = #121212
+bg_focus                  = #5a5a5a
+bg_urgent                 = #ffc0cb
+
+# FG
+fg_normal                 = #5a5a5a
+fg_focus                  = #ffffff
+fg_urgent                 = #1e90ff
+fg_widg                   = #949494
+
+# Border
+border_width              = 2
+border_width_wibox        = 0
+border_normal             = #292929
+border_wibox              = #5a5a5a
+border_focus              = #5a5a5a
+border_marked             = #a020f0
+
+# Menu
+menu_submenu_icon         = /home/stxza/.config/awesome/icons/submenu.png
+menu_height               = 15
+menu_width                = 96
+border_width_menu         = 1
+
+# Taglist Icons
+taglist_squares           = true
+taglist_squares_sel       = /usr/share/awesome/themes/default/taglist/squarefw.png
+taglist_squares_unsel     = /usr/share/awesome/themes/default/taglist/squarew.png
+
+# Wibox Icons
+tasklist_floating_icon    = /home/stxza/.config/awesome/icons/layouts/floatingw.png
+awesome_icon              = /home/stxza/.config/awesome/icons/awesome16_gray_darker.png
+arch_icon                 = /home/stxza/.config/awesome/icons/arch_grey.png
+pacic                     = /home/stxza/.config/awesome/icons/pacman.png
+sepic                     = /home/stxza/.config/awesome/icons/separators/link14.png
+wifiic                    = /home/stxza/.config/awesome/icons/wifi.png
+cpuic                     = /home/stxza/.config/awesome/icons/cpu.png
+tempic                    = /home/stxza/.config/awesome/icons/temp.png
+memic                     = /home/stxza/.config/awesome/icons/mem.png
+batic                     = /home/stxza/.config/awesome/icons/bat.png
+volic                     = /home/stxza/.config/awesome/icons/vol.png
+fsic                      = /home/stxza/.config/awesome/icons/accordion.png
+
+# Wall
+wallpaper_cmd             = awsetbg -c ~/pics/Walls/Gradients/Grey/gradplain1920.jpg
+
+# Layout Icons
+layout_fairh              = /usr/share/awesome/themes/default/layouts/fairhw.png
+layout_fairv              = /usr/share/awesome/themes/default/layouts/fairvw.png
+layout_floating           = /usr/share/awesome/themes/default/layouts/floatingw.png
+layout_magnifier          = /usr/share/awesome/themes/default/layouts/magnifierw.png
+layout_max                = /usr/share/awesome/themes/default/layouts/maxw.png
+layout_tilebottom         = /usr/share/awesome/themes/default/layouts/tilebottomw.png
+layout_tileleft           = /usr/share/awesome/themes/default/layouts/tileleftw.png
+layout_tile               = /usr/share/awesome/themes/default/layouts/tilew.png
+layout_tiletop            = /usr/share/awesome/themes/default/layouts/tiletopw.png
+# vim: ft=conf

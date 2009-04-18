@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+# Author: Gigamo <gigamo@gmail.com>
+# Simple script that moves config files over to a local git repository
+require 'fileutils'
+
+GITDIR = "#{ENV["HOME"]}/github/config"
+
+def togit(files)
+  return 'Git not found' if `which git`.strip == ''
+
+  files.each do |file|
+    FileUtils.cp file, "#{GITDIR}/#{file}"
+    FileUtils.cd(GITDIR, :verbose => true)
+    IO.popen("git add #{file}") {}
+    puts "> #{file} was succesfully added."
+  end
+end
+
+unless ARGV.empty?
+  togit(ARGV) if $0 == __FILE__
+end

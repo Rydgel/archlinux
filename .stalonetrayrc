@@ -1,0 +1,10 @@
+transparent true
+background  "#000000"
+geometry 124x18+1350+0
+icon_size 18
+icon_gravity NE
+window_layer bottom
+sticky true
+fuzzy_edges 3
+tint_color white
+tint_level 3

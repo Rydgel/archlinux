@@ -1,0 +1,48 @@
+------------------------------
+-- Blue/White awesome theme --
+------------------------------
+
+font                    = Anonymous 7
+
+bg_normal               = #4e6274
+bg_focus                = #839ab1
+bg_urgent               = #ff6565
+
+fg_normal               = #000000
+fg_focus                = #ffffff
+fg_urgent               = #ffffff
+
+border_width            = 1
+border_normal           = #4e6274
+border_focus            = #839ab1
+border_marked           = #ff6565
+
+taglist_squares_sel     = /usr/share/awesome/themes/default/taglist/squarefw.png
+taglist_squares_unsel   = /usr/share/awesome/themes/default/taglist/squarew.png
+
+tasklist_floating_icon  = /usr/share/awesome/themes/default/tasklist/floatingw.png
+
+menu_submenu_icon       = /home/gig/.config/awesome/icons/submenu.png
+menu_height             = 15
+menu_width              = 100
+
+taglist_squares         = true
+
+titlebar_close_button   = true
+
+wallpaper_cmd           = awsetbg /home/gig/walls/elfenlied.jpg
+
+layout_dwindle          = /usr/share/awesome/themes/default/layouts/dwindlew.png
+layout_fairh            = /usr/share/awesome/themes/default/layouts/fairhw.png
+layout_fairv            = /usr/share/awesome/themes/default/layouts/fairvw.png
+layout_floating         = /usr/share/awesome/themes/default/layouts/floatingw.png
+layout_magnifier        = /usr/share/awesome/themes/default/layouts/magnifierw.png
+layout_max              = /usr/share/awesome/themes/default/layouts/maxw.png
+layout_fullscreen       = /usr/share/awesome/themes/default/layouts/fullscreenw.png
+layout_spiral           = /usr/share/awesome/themes/default/layouts/spiralw.png
+layout_tilebottom       = /usr/share/awesome/themes/default/layouts/tilebottomw.png
+layout_tileleft         = /usr/share/awesome/themes/default/layouts/tileleftw.png
+layout_tile             = /usr/share/awesome/themes/default/layouts/tilew.png
+layout_tiletop          = /usr/share/awesome/themes/default/layouts/tiletopw.png
+
+awesome_icon            = /usr/share/awesome/icons/awesome16.png

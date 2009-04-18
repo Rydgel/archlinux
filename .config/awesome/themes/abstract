@@ -1,0 +1,40 @@
+font                    = Terminus 8
+
+bg_normal               = #101010
+bg_focus                = #151515
+bg_urgent               = #CF6060
+ 
+fg_normal               = #d3d3d3
+fg_focus                = #DDDCDC
+fg_urgent               = #FFFFFF
+
+border_width            = 1
+border_normal           = #101010
+border_focus            = #151515
+border_marked           = #CF6060
+
+taglist_squares_sel     = /usr/share/awesome/themes/default/taglist/squarefw.png
+taglist_squares_unsel   = /usr/share/awesome/themes/default/taglist/squarew.png
+tasklist_floating_icon  = /usr/share/awesome/themes/default/tasklist/floatingw.png
+
+menu_submenu_icon       = /home/raziel/.config/awesome/icons/submenu.png
+menu_height             = 15
+menu_width              = 100
+
+taglist_squares         = true
+titlebar_close_button   = false
+
+wallpaper_cmd           = awsetbg /home/gig/walls/arch.jpg
+
+layout_fairh            = /home/raziel/.config/awesome/icons/layouts/fairhw.png
+layout_fairv            = /home/raziel/.config/awesome/icons/layouts/fairvwb.png
+layout_floating         = /home/raziel/.config/awesome/icons/layouts/floatingwb.png
+layout_magnifier        = /home/raziel/.config/awesome/icons/layouts/magnifierwb.png
+layout_max              = /home/raziel/.config/awesome/icons/layouts/maxwb.png
+layout_spiral           = /home/raziel/.config/awesome/icons/layouts/spiralw.png
+layout_tilebottom       = /home/raziel/.config/awesome/icons/layouts/tilebottomwb.png
+layout_tileleft         = /home/raziel/.config/awesome/icons/layouts/tileleftwb.png
+layout_tile             = /home/raziel/.config/awesome/icons/layouts/tilewb.png
+layout_tiletop          = /home/raziel/.config/awesome/icons/layouts/tiletopwb.png
+
+awesome_icon            = /home/raziel/.config/awesome/icons/awesome16.png
