@@ -1,0 +1,14 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>         <type>    <options>          <dump> <pass>
+none                   /dev/pts      devpts    defaults            0      0
+none                   /dev/shm      tmpfs     defaults            0      0
+none 		       /proc/bus/usb usbfs     auto,busgid=108,busmode=0775,devgid=108,devmode=0664 0 0
+
+/dev/cdrom /media/cdrom   iso9660,udf    ro,user,noauto,unhide   0      0
+/dev/dvd /media/dvd   iso9660,udf    ro,user,noauto,unhide   0      0
+UUID=6206b262-f9cc-4263-9988-31b7823ee976 swap swap defaults 0 0
+UUID=98d265a6-6b26-4aaf-a959-449a997e5ecf / ext3 defaults 0 1
+/dev/disk/by-id/scsi-SATA_HTS541080G9AT00_MPB4LAX6JTKEBM-part1 /windows/C ntfs-3g users,gid=users,fmask=113,dmask=002,locale=fr_FR.UTF-8 0 0
+/dev/disk/by-id/scsi-SATA_HTS541080G9AT00_MPB4LAX6JTKEBM-part5 /windows/D ntfs-3g users,gid=users,fmask=113,dmask=002,locale=fr_FR.UTF-8 0 0
