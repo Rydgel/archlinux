@@ -1,4 +1,4 @@
--- awesome 3 (git) configuration file by Gigamo <gigamo[at]gmail[dot]com>
+-- awesome configuration file with shifty
 io.stderr:write("\n\r::: Awesome loaded at ", os.date("%d/%m/%Y %T"), " :::\r\n\n")
 --{{{ Create tables
 
