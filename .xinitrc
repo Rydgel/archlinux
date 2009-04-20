@@ -19,12 +19,12 @@ wmname LG3D &
 xscreensaver -no-splash &
 thunar --daemon &
 volwheel &
-(sleep 30 && conky -c conky/.conkyrc) &
-# xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
+# (sleep 30 && conky -c conky/.conkyrc) &
+xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
 # exec openbox-session
 # xmonad
 # exec pekwm
 # exec gnome-session
-# exec openbox-session
-awesome
+exec openbox-session
+# awesome
 # exec start-fusion.sh

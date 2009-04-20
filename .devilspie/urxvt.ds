@@ -2,7 +2,7 @@
 
 (matches (window_class) "URxvt")
 (begin
-	(spawn_async (str "transset-df -i " (window_xid) " 1.00"))
+	(spawn_async (str "transset-df -i " (window_xid) " .80"))
 )
 )
 

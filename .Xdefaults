@@ -7,10 +7,10 @@ Xft.hinting: 1
 Xft.hintstyle: hintfull
 Xft.rgba: rgb
 
-URxvt*font: xft:cure:style=Regular:pixelsize=10
-URxvt*boldFont: xft:cure:style=Bold:pixelsize=10
-URxvt*italicFont: xft:cure:style=Italic:pixelsize=10
-URxvt*boldItalicFont: xft:cure:style=boldItalic:pixelsize=10
+URxvt*font: xft:Monaco:style=Regular:pixelsize=10
+URxvt*boldFont: xft:Monaco:style=Bold:pixelsize=10
+URxvt*italicFont: xft:Monaco:style=Italic:pixelsize=10
+URxvt*boldItalicFont: xft:Monaco:style=boldItalic:pixelsize=10
 
  
 !URxvt*termName: rxvt-256color

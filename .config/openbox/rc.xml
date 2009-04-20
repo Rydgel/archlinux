@@ -733,6 +733,12 @@
       <desktop>all</desktop>
       <skip_pager>yes</skip_pager>
       <skip_taskbar>yes</skip_taskbar>
+  </application>
+   <application name="urxvt">
+       <decor>no</decor>
+   </application>
+   <application name="firefox*">
+       <desktop>2</desktop>
     </application>
   </applications>
 </openbox_config>

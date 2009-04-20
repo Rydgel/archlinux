@@ -81,18 +81,21 @@ setprompt () {
 	
 	#   username@Machine ~/dev/dir[master]$   # clean working directory
 	#   username@Machine ~/dev/dir[master☠]$  # dirty working directory
-	function parse_git_dirty {
-		[[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "☠"
-	}
-	function parse_git_branch {
-		git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
-	}
+	#function parse_git_dirty {
+	#	[[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "☠"
+	#}
+	#function parse_git_branch {
+	#	git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
+	#}
 
-    PROMPT='%{$fg_bold[grey]%}[%{$fg_bold[cyan]%}%~%{$reset_color%}%{$fg_bold[grey]%}]%{$reset_color%}%{$fg_bold[yellow]%}$(parse_git_branch)%{$reset_color%}
--%{$fg_bold[red]%}>%{$reset_color%} '
-    RPROMPT='%{$fg[cyan]%}%D{%H:%M}%{$reset_color%}'
+    #PROMPT='%{$fg_bold[grey]%}[%{$fg_bold[cyan]%}%~%{$reset_color%}%{$fg_bold[grey]%}]%{$reset_color%}%{$reset_color%}
+#-%{$fg_bold[red]%}>%{$reset_color%} '
+    #RPROMPT='%{$fg[cyan]%}%D{%H:%M}%{$reset_color%}'
+    #PROMPT='%{\e[0;34m%}[%*] %{\e[0;33m%}[%~]%{\e[0;31m%} :%{\e[0m%} '
 }
 setprompt
+export PS1="$(print '%{\e[1;34m%}[%*] %{\e[0;33m%}[%~]%{\e[0;31m%} :%{\e[0m%} ')"
+
 # }}}
 
 # {{{ Key Bindings
