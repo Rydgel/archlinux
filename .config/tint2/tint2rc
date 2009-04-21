@@ -10,10 +10,10 @@ border_width = 0
 background_color = #151515 100
 border_color = #ffffff 0
 
-rounded = 0
+rounded = 5
 border_width = 0
-background_color = #ffffff 30
-border_color = #ffffff 15
+background_color = #94C45C 100
+border_color = #94C45C 100
 
 rounded = 0
 border_width = 0
@@ -26,9 +26,9 @@ border_color = #ffffff 0
 #---------------------------------------------
 panel_monitor = 1
 panel_position = bottom left
-panel_size = 1440 50
-panel_margin = 0 20
-panel_padding = 0 15
+panel_size = 1440 30
+panel_margin = 0 0
+panel_padding = 0 5
 font_shadow = 0
 panel_background_id = 1
 
@@ -44,12 +44,12 @@ panel_background_id = 1
 #---------------------------------------------
 task_icon = 0
 task_text = 1
-task_width = 200
+task_width = 175
 task_centered = 0
 task_padding = 20 2
-task_font = HeldustryFTVBasic 8
-task_font_color = #cccccc 100
-task_active_font_color = #cccccc 100
+task_font = sans 8
+task_font_color = #aaaaaa 100
+task_active_font_color = #ffffff 100
 task_background_id = 1
 task_active_background_id = 1
 
@@ -64,10 +64,11 @@ task_active_background_id = 1
 # CLOCK
 #---------------------------------------------
 time1_format = %H:%M
-time1_font = HeldustryFTVBasic 8
-#time2_format = %A %d %B
+#time1_font = HeldustryFTVBasic 8
+time1_font = sans 8
+time2_format = %A %d %B
 time2_font = sans 7
-clock_font_color = #cccccc 100
+clock_font_color = #ffffff 100
 clock_padding = 20 0
 clock_background_id = 0
 

@@ -20,7 +20,8 @@ xscreensaver -no-splash &
 thunar --daemon &
 volwheel &
 # (sleep 30 && conky -c conky/.conkyrc) &
-xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
+#xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
+xcompmgr -c -o 1.00 -r 9 &
 # exec openbox-session
 # xmonad
 # exec pekwm
