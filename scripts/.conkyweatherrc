@@ -1,0 +1,2 @@
+def current():
+ print cloud_type+' - '+temp+temp_units

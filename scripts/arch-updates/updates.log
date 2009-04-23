@@ -1,0 +1,6 @@
+:: Synchronizing package databases...
+ core is up to date
+ extra is up to date
+ community is up to date
+:: Starting full system upgrade...
+ local database is up to date
