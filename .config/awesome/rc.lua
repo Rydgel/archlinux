@@ -10,7 +10,7 @@ if rc then
 		return;
 	end
 end
- 
+
 dofile("/etc/xdg/awesome/rc.lua");
  
 for s = 1,screen.count() do

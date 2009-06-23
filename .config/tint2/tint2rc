@@ -5,19 +5,19 @@
 #---------------------------------------------
 # BACKGROUND AND BORDER
 #---------------------------------------------
-rounded = 0
+rounded = 7
 border_width = 0
-background_color = #151515 100
-border_color = #ffffff 0
+background_color = #ffffff 100
+border_color = #eeeeee 80
 
 rounded = 5
 border_width = 0
 background_color = #94C45C 100
 border_color = #94C45C 100
 
-rounded = 0
+rounded = 7
 border_width = 0
-background_color = #000000 35
+background_color = #ffffff 100
 border_color = #ffffff 0
 
 
@@ -26,9 +26,9 @@ border_color = #ffffff 0
 #---------------------------------------------
 panel_monitor = 1
 panel_position = bottom left
-panel_size = 1440 30
-panel_margin = 0 0
-panel_padding = 0 5
+panel_size = 1370 30
+panel_margin = 35 5
+panel_padding = 0 0 
 font_shadow = 0
 panel_background_id = 1
 
@@ -42,33 +42,33 @@ panel_background_id = 1
 #---------------------------------------------
 # TASKS
 #---------------------------------------------
-task_icon = 0
+task_icon = 1
 task_text = 1
 task_width = 175
-task_centered = 0
-task_padding = 20 2
-task_font = sans 8
-task_font_color = #aaaaaa 100
-task_active_font_color = #ffffff 100
-task_background_id = 1
-task_active_background_id = 1
+task_centered = 1
+task_padding = 20 6
+task_font = HeldustryFTVBasic 8
+task_font_color = #000000 100
+task_active_font_color = #606060 100
+task_background_id = 3
+task_active_background_id = 3
 
 #---------------------------------------------
 # SYSTRAY
 #---------------------------------------------
-#systray_padding = 9 3
+systray_padding = 0 4 5
 #systray_icon_opacity = 30
-#systray_background_id = 1
+systray_background_id = 1
 
 #---------------------------------------------
 # CLOCK
 #---------------------------------------------
 time1_format = %H:%M
-#time1_font = HeldustryFTVBasic 8
-time1_font = sans 8
-time2_format = %A %d %B
-time2_font = sans 7
-clock_font_color = #ffffff 100
+time1_font = HeldustryFTVBasic 8
+#time1_font = sans 8
+#time2_format = %A %d %B
+#time2_font = sans 7
+clock_font_color = #000000 100
 clock_padding = 20 0
 clock_background_id = 0
 

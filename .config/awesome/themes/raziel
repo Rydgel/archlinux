@@ -1,42 +1,41 @@
-#font                    = Terminus 8
-#font                    = Monaco 7
-font                     = cure 8
+theme = {}
+theme.font                     = "cure 8"
 
 
-fg_normal               = #DCDCCC
-fg_focus                = #F0DFAF
-fg_urgent               = #CC9393
-bg_normal               = #121212
-bg_focus                = #1E2320
-bg_urgent               = #3F3F3F
+theme.fg_normal               = "#DCDCCC"
+theme.fg_focus                = "#F0DFAF"
+theme.fg_urgent               = "#CC9393"
+theme.bg_normal               = "#121212"
+theme.bg_focus                = "#1E2320"
+theme.bg_urgent               = "#3F3F3F"
 
-border_width            = 1
-border_normal           = #121212
-border_focus            = #4C4C4C
-border_marked           = #CC9393
+theme.border_width            = "1"
+theme.border_normal           = "#121212"
+theme.border_focus            = "#4C4C4C"
+theme.border_marked           = "#CC9393"
 
-taglist_squares_sel     = /usr/share/awesome/themes/default/taglist/squarefw.png
-taglist_squares_unsel   = /usr/share/awesome/themes/default/taglist/squarew.png
-tasklist_floating_icon  = /usr/share/awesome/themes/default/tasklist/floatingw.png
+theme.taglist_squares_sel     = "/usr/share/awesome/themes/default/taglist/squarefw.png"
+theme.taglist_squares_unsel   = "/usr/share/awesome/themes/default/taglist/squarew.png"
+theme.tasklist_floating_icon  = "/usr/share/awesome/themes/default/tasklist/floatingw.png"
 
-menu_submenu_icon       = /home/raziel/.config/awesome/icons/submenu.png
-menu_height             = 15
-menu_width              = 100
+theme.menu_submenu_icon       = "/home/raziel/.config/awesome/icons/submenu.png"
+theme.menu_height             = "15"
+theme.menu_width              = "100"
 
-taglist_squares         = true
-titlebar_close_button   = false
+theme.taglist_squares         = "true"
+theme.titlebar_close_button   = "false"
 
-wallpaper_cmd           = awsetbg /home/raziel/images/Aurora.jpg
+theme.wallpaper_cmd           = "awsetbg /home/raziel/images/Aurora.jpg"
 
-layout_fairh            = /home/raziel/.config/awesome/icons/layouts/fairhw.png
-layout_fairv            = /home/raziel/.config/awesome/icons/layouts/fairvwb.png
-layout_floating         = /home/raziel/.config/awesome/icons/layouts/floatingwb.png
-layout_magnifier        = /home/raziel/.config/awesome/icons/layouts/magnifierwb.png
-layout_max              = /home/raziel/.config/awesome/icons/layouts/maxwb.png
-layout_spiral           = /home/raziel/.config/awesome/icons/layouts/spiralw.png
-layout_tilebottom       = /home/raziel/.config/awesome/icons/layouts/tilebottomwb.png
-layout_tileleft         = /home/raziel/.config/awesome/icons/layouts/tileleftwb.png
-layout_tile             = /home/raziel/.config/awesome/icons/layouts/tilewb.png
-layout_tiletop          = /home/raziel/.config/awesome/icons/layouts/tiletopwb.png
+theme.layout_fairh            = "/home/raziel/.config/awesome/icons/layouts/fairhw.png"
+theme.layout_fairv            = "/home/raziel/.config/awesome/icons/layouts/fairvwb.png"
+theme.layout_floating         = "/home/raziel/.config/awesome/icons/layouts/floatingwb.png"
+theme.layout_magnifier        = "/home/raziel/.config/awesome/icons/layouts/magnifierwb.png"
+theme.layout_max              = "/home/raziel/.config/awesome/icons/layouts/maxwb.png"
+theme.layout_spiral           = "/home/raziel/.config/awesome/icons/layouts/spiralw.png"
+theme.layout_tilebottom       = "/home/raziel/.config/awesome/icons/layouts/tilebottomwb.png"
+theme.layout_tileleft         = "/home/raziel/.config/awesome/icons/layouts/tileleftwb.png"
+theme.layout_tile             = "/home/raziel/.config/awesome/icons/layouts/tilewb.png"
+theme.layout_tiletop          = "/home/raziel/.config/awesome/icons/layouts/tiletopwb.png"
 
-awesome_icon            = /home/raziel/.config/awesome/icons/awesome16.png
+theme.awesome_icon            = "/home/raziel/.config/awesome/icons/awesome16.png"

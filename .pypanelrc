@@ -11,13 +11,13 @@ VERSION         = 2.4           # Config file version
 #------------------------------------------------------------------------------
 # Colors: Format is hex triplet - 0xrrggbb
 #------------------------------------------------------------------------------
-BG_COLOR        = "0x151515"    # Panel background and tinting color
-TASK_COLOR      = "0xffffff"    # Normal task name color 
-FOCUSED_COLOR   = "0xA6BF1B"    # Focused task name color
+BG_COLOR        = "0x262626"    # Panel background and tinting color
+TASK_COLOR      = "0xcccccc"    # Normal task name color 
+FOCUSED_COLOR   = "0x776241"    # Focused task name color
 SHADED_COLOR    = "0xcccccc"    # Shaded task name color 
 MINIMIZED_COLOR = "0xcccccc"    # Minimized task name color 
-DESKTOP_COLOR   = "0xf7cf0a"    # Desktop name color
-CLOCK_COLOR     = "0xf7cf0a"    # Clock text color
+DESKTOP_COLOR   = "0x776241"    # Desktop name color
+CLOCK_COLOR     = "0x776241"    # Clock text color
 LINE_COLOR      = "0xcccccc"    # Vertical line color
 
 # Text Shadow Colors
@@ -39,7 +39,7 @@ P_HEIGHT        = 20            # Panel height
 P_L_BUFF	= 0
 P_R_BUFF	= 0
 P_T_BUFF	= 0
-P_B_BUFF	= 10
+P_B_BUFF	= 0
 
 #------------------------------------------------------------------------------
 # Icon Size Options: Measured in pixels
@@ -81,7 +81,7 @@ HIDDEN_SIZE     = 2
 #     "aquafont-8" 
 #------------------------------------------------------------------------------
 #FONT            = "bitstream vera sans-8"
-FONT	= "HeldustryFTVBasic Demi-8"
+FONT	= "cure-8"
 #------------------------------------------------------------------------------
 # Show All Applications: Show apps from all desktops or just the current
 # 0: Disabled - Only applications on the current desktop will be displayed
@@ -145,7 +145,7 @@ SHOWBORDER      = 0             # Show a border around the panel
 # by the XServer, if that fails it will use the desktop number as its name
 # Ex. ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"]
 #------------------------------------------------------------------------------
-DESKTOP_NAMES   = [" 1 ", " 2 ", " 3 ", " 4 "," 5 "," 6 "]
+DESKTOP_NAMES   = [" 1 ", " 2 ", " 3 ", " 4 "," 5 "," 6 ", " 7 "]
 
 #------------------------------------------------------------------------------
 # Panel Layout:       -----------------------------------

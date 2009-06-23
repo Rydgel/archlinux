@@ -35,13 +35,13 @@ else
     set t_Co=256
     colorscheme rydgel
     "let g:zenburn_high_Contrast = 1
-    "colorscheme zenburn
+    "colorscheme nightwish
     set mouse=a
     set ttymouse=xterm
     set termencoding=utf-8
 endif
 
-set shell=/bin/sh
+set shell=/bin/zsh
 set vb
 set t_vb=
 set foldenable

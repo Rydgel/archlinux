@@ -46,7 +46,7 @@ Global {
 	# Tagging
 	KeyPress = "Mod4 T" { Actions = "Toggle Tagged False" }
 	# Menus
-	KeyPress = "Mod4 R" { Actions = "ShowMenu Root" }
+	KeyPress = "Mod4 R" { Actions = "Exec bashrun" }
 	KeyPress = "Mod4 W" { Actions = "ShowMenu Window" }
 	KeyPress = "Mod4 L" { Actions = "ShowMenu Goto" }
 	KeyPress = "Mod4 C" { Actions = "ShowMenu GotoClient" }

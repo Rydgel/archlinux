@@ -42,7 +42,7 @@ else
 endif
 
 set shell=/bin/sh
-set guifont=Consolas\ 9
+set guifont=Anonymous\ 9
 set vb
 set t_vb=
 set foldenable

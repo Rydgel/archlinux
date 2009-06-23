@@ -7,10 +7,10 @@ Xft.hinting: 1
 Xft.hintstyle: hintfull
 Xft.rgba: rgb
 
-URxvt*font: xft:Monaco:style=Regular:pixelsize=10
-URxvt*boldFont: xft:Monaco:style=Bold:pixelsize=10
-URxvt*italicFont: xft:Monaco:style=Italic:pixelsize=10
-URxvt*boldItalicFont: xft:Monaco:style=boldItalic:pixelsize=10
+URxvt*font: xft:Terminus:style=Regular:pixelsize=12
+URxvt*boldFont: xft:Terminus:style=Bold:pixelsize=12
+URxvt*italicFont: xft:Terminus:style=Italic:pixelsize=12
+URxvt*boldItalicFont: xft:Terminus:style=boldItalic:pixelsize=12
 
  
 !URxvt*termName: rxvt-256color
@@ -19,7 +19,7 @@ URxvt*scrollBar:   false
 URxvt*scrollBar_right:   false
 URxvt*loginShell:   true
 !URxvt*tintColor: #121212
-!URxvt*shading: 0
+!URxvt*shading: 40
 URxvt*termName:     rxvt-unicode
 !URxvt*inheritPixmap:   true
 URxvt*cutchars:     "()*,<>[]{}|'
@@ -248,7 +248,7 @@ xpdf*viKeys: on
 
 !urxvt.cursorColor:       #dd9900
 !urxvt.cursorColor2:      #000000
-*.background:            #121212
+*.background:            #1E1E1E
 !*.foreground:            #ddccbb
 !urxvt.colorBD:           #ffffff
 !urxvt.colorIT:           #bbbbbb
@@ -352,26 +352,122 @@ xpdf*viKeys: on
 !*color14: rgb:77/87/98
 !*color15: rgb:ca/ca/ca
 
-*foreground: #ffffff
-*color0: #000000
-*color1: #9e1828
-*color2: #aece92
-*color3: #d7af00
-*color4: #414171
-*color5: #963c59
-*color6: #418179
-*color7: #bebebe
-*color8: #666666
-*color9: #cf6171
-*color10: #c5f779
-*color11: #fff796
-*color12: #4186be
-*color13: #cf9ebe
-*color14: #71bebe
-*color15: #ffffff
+!*foreground: #ffffff
+!*color0: #000000
+!*color1: #9e1828
+!*color2: #aece92
+!*color3: #d7af00
+!*color4: #414171
+!*color5: #963c59
+!*color6: #418179
+!*color7: #bebebe
+!*color8: #666666
+!*color9: #cf6171
+!*color10: #c5f779
+!*color11: #fff796
+!*color12: #4186be
+!*color13: #cf9ebe
+!*color14: #71bebe
+!*color15: #ffffff
 
 URxvt*colorUL: #c5f779
 URxvt*underlineColor: #c5f779
 
 URxvt.colorBD: #ffffff
 URxvt.colorIT: #bbbbbb
+
+*foreground:  #efefcf
+*color0:      #000000
+*color1:      #ff8190
+*color2:      #aece92
+*color3:      #968a38
+*color4:      #8888d4
+*color5:      #963c59
+*color6:      #418179
+*color7:      #bebebe
+*color8:      #666666
+*color9:      #cf6171
+*color10:     #c5f779
+*color11:     #fff796
+*color12:     #4186be
+*color13:     #cf9ebe
+*color14:     #71bebe
+*color15:     #ffffff
+
+!URxvt*color0: #1e2320
+!URxvt*color1: #705050
+!URxvt*color2: #60b48a
+!URxvt*color3: #dfaf8f
+!URxvt*color4: #506070
+!URxvt*color5: #dc8cc3
+!URxvt*color6: #8cd0d3
+!URxvt*color7: #dcdccc
+!URxvt*color8: #709080
+!URxvt*color9: #dca3a3
+!URxvt*color10: #c3bf9f
+!URxvt*color11: #f0dfaf
+!URxvt*color12: #94bff3
+!URxvt*color13: #ec93d3
+!URxvt*color14: #93e0e3
+!URxvt*color15: #ffffff
+
+
+
+! this rox
+
+*background: #262626
+*foreground: light grey
+
+!black
+*color0: #222222
+*color8: #554444
+
+!red
+*color1: #EA6868
+*color9: #FF7272
+!green
+*color2: #ABCB8D
+*color10: #AFD78A
+!yellow
+*color3: #E8AE5B
+*color11: #FFA75D
+!blue
+*color4: #71C5F4
+*color12: #67CDE9
+!magenta
+*color5: #E2BAF1
+*color13: #ECAEE9
+!cyan
+*color6: #21F1EA
+*color14: #36FFFC
+!white
+*color7: #F1F1F1
+*color15: #FFFFFF
+
+!URxvt.background: #101010
+!URxvt.foreground: #f7edad
+!URxvt.cursorColor: #ffbb00
+!URxvt.borderColor: #191919
+!URxvt.depth: 24
+
+!Wra!th
+!*color0: #101010
+!*color1: #DC6268
+!*color2: #89C98D
+!!!*color2: #83DE89
+!*color3: #f7edad
+!*color4: #697BEB
+!*color5: #A889CD
+!*color6: #9DD4DC
+!*color7: #d6d6d6
+!*color8: #404040
+!*color9: #DC6268
+!*color10: #7FE56B
+!*color11: #f7edad
+!*color12: #697BEB
+!*color13: #A889CD
+!*color14: #9DD4DC
+!*color15: #d6d6d6
+
+
+

@@ -29,6 +29,11 @@ Property = "^(gecko|Gecko|firefox-bin),^Firefox-bin" {
 	Titlebar = "False"
 }
 
+Property = "^(urxvt|xterm)" {
+    Border = "False"
+    Titlebar = "False"
+}
+
 /*
  Auto-group up to 10 mozilla download windows to group you call "moz-dl",
  using a WM_CLASS and specifying the the download window using the
@@ -134,14 +139,33 @@ Property = "^(gecko|Gecko|firefox-bin),^Firefox-bin" {
  using the geometry in all its glory, defining the windows size in
  addition to its position.
 */
-# Property = "^xclock,^XClock" {
-# 	ApplyOn = "Start New"
-# 	ClientGeometry = "120x137+0-137"
-# 	Border = "False"; Titlebar = "False"
-# 	Sticky = "True"
-# 	Layer = "Desktop"
-# 	Skip = "Menus FocusToggle Snap"
-# }
+ Property = "^xclock,^XClock" {
+ 	ApplyOn = "Start New"
+ 	ClientGeometry = "120x137+0-137"
+ 	Border = "False"; Titlebar = "False"
+ 	Sticky = "True"
+ 	Layer = "Desktop"
+ 	Skip = "Menus FocusToggle Snap"
+ }
+
+ Property = "^urxvt,^URxvt" {
+ 	ApplyOn = "Start New"
+ 	Border = "False"; Titlebar = "False"
+ }
+
+ Property = "^xterm,^XTerm" {
+ 	ApplyOn = "Start New"
+ 	Border = "False"; Titlebar = "False"
+ }
+
+ Property = "^bashrun,^XTerm" {
+ 	ApplyOn = "Start New"
+ 	Border = "False"; Titlebar = "False"
+ 	Sticky = "True"
+ }
+
+
+
 # 
 # Property = "^xload,^XLoad" {
 # 	ApplyOn = "Start New"
@@ -272,9 +296,9 @@ TypeRules {
  section found from your theme. Note that this _needs_ a theme that
  supports it.
 */
-# DecorRules {
-# 	Property = "^term,^xterm" {
-# 		Decor = "TERM"
-# 	}
-# }
+ DecorRules {
+ 	Property = "^term,^xterm,^urxvt,^URxvt" {
+ 		Decor = "Titlebarless"
+ 	}
+ }
 

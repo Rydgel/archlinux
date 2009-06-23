@@ -4,7 +4,8 @@ Files {
     Menu = "~/.pekwm/menu"
     Start = "~/.pekwm/start"
     AutoProps = "~/.pekwm/autoproperties"
-    Theme = "~/.pekwm/themes/Dusk"
+    #Theme = "/usr/share/pekwm/themes/gilouche"
+    Theme = "~/.pekwm/themes/Miro"
 }
 
 MoveResize {
@@ -17,13 +18,13 @@ MoveResize {
 }
 
 Screen {
-    Workspaces = "6"
-    WorkspacesPerRow = "6"
-    WorkspaceNames = "Main;Web;E-mail;Music"
-    ShowFrameList = "True"
-    ShowStatusWindow = "True"
+    Workspaces = "7"
+    WorkspacesPerRow = "7"
+    WorkspaceNames = "Main;Web;E-mail;Music;Dev;Video;Misc"
+    ShowFrameList = "False"
+    ShowStatusWindow = "False"
     ShowClientID = "False"
-    ShowWorkspaceIndicator = "1"
+    ShowWorkspaceIndicator = "True"
     PlaceNew = "True"
     FocusNew = "True"
 

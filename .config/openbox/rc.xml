@@ -15,7 +15,7 @@
     <focusLast>yes</focusLast>
     <!-- focus the last used window when changing desktops, instead of the one
        under the mouse pointer. when followMouse is enabled -->
-    <underMouse>no</underMouse>
+    <underMouse>yes</underMouse>
     <!-- move focus under the mouse, even when the mouse is not moving -->
     <focusDelay>200</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
@@ -36,8 +36,8 @@
        the active window is -->
   </placement>
   <theme>
-    <name>mookid_Openbox</name>
-    <titleLayout>LIMC</titleLayout>
+    <name>Crazy Mothafucka</name>
+    <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
